@@ -1,0 +1,102 @@
+/* removing basics styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg , rgb(10, 5, 73),rgba(6, 33, 153, 0.774));
+    color: white;
+    font-family: "poppins" ,sans-serif;
+    min-height: 100vh;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    padding: 25px;
+    color: #fff;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 020px #00b3ff,
+                0 0 040px #00b3ff,
+                0 0 080px #00b3ff,
+                0 0 120px #00b3ff,
+                0 0 200px #00b3ff,
+                0 0 300px #00b3ff,
+                0 0 400px #00b3ff;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 70px;
+    color: #fff;
+    filter: blur(0.4px);
+    text-shadow: 0 0 10px #e91f04,
+                0 0 020px #e91f04,
+                0 0 040px #e91f04,
+                0 0 080px #e91f04,
+                0 0 120px #e91f04,
+                0 0 200px #e91f04;
+}
+
+.play-btn{
+    text-align: center;
+    padding: 30px;
+}
+
+.singleplayer-btn , .multiplayer-btn , .leaderboard-btn {
+    font-size: 40px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 45px;
+    cursor:pointer;
+    outline: none;
+}
+.singleplayer-btn {
+    color: #fff;
+    text-shadow: 0 0 10px #1aac9f,
+                0 0 020px #1aac9f,
+                0 0 030px #1aac9f;
+}
+.singleplayer-btn:hover{
+    transition: .3s ease;
+    box-shadow: 0 15px 25px black;
+    background-color: #0fc5b61e;
+}
+
+
+
+.multiplayer-btn{
+    margin-top: 15px;
+    color: #fff;
+    text-shadow: 0 0 10px #0e940e,
+                0 0 020px #0e940e,
+                0 0 040px #0e940e;
+    font-size: 70px;
+
+}
+.multiplayer-btn:hover{
+    transition: .3s ease;
+    box-shadow: 0 15px 25px black;
+    background-color: rgba(21, 192, 178, 0.192)
+}
+
+
+.leaderboard-btn{
+    margin-top: 15px;
+    color: #fff;
+    text-shadow: 0 0 10px #b3d80c,
+                0 0 020px #b3d80c;
+    
+}
+.leaderboard-btn:hover{
+    transition: .3s ease;
+    box-shadow: 0 15px 25px black;
+    background-color: #9cbd0b4f;
+}

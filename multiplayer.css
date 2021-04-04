@@ -1,0 +1,78 @@
+/* removing basics styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg , rgb(10, 5, 73),rgba(6, 33, 153, 0.774));
+    color: white;
+    font-family: "poppins" ,sans-serif;
+    min-height: 100vh;
+}
+header , button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100px;
+    padding: 25px;
+    color: #fff;
+}
+.symbols , button{
+    font-size: larger;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.backspace , button {
+    text-shadow: 0 0 10px rgba(15, 142, 226, 0.911),
+                 0 0 020px rgba(15, 142, 226, 0.911);
+    
+}
+.configuration{
+    text-shadow: 0 0 10px rgba(41, 187, 11, 0.911),
+                 0 0 020px rgba(41, 187, 11, 0.911);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+    text-shadow: 0 0 10px rgba(233, 30, 15, 0.911),
+                0 0 020px rgba(233, 30, 15, 0.911);  
+}
+.multi-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 4px;
+    justify-content: space-between;
+
+}
+.select-opt{
+    font-size: 80px;
+    transition: 0.5s ease all;
+    padding: 19px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(15, 142, 226, 0.911),
+    0 0 020px rgba(15, 142, 226, 0.911); 
+}
+.select-opt:hover{
+    background-color: rgba(46, 65, 235, 0.247);
+    border-radius: 50px;
+    
+}
+.online{
+    font-size:120px;
+}
+u{
+    text-decoration-thickness: 4px;
+}

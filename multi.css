@@ -1,0 +1,53 @@
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: 0 0 10px #e91f04,
+                0 0 020px #e91f04;
+}
+
+.grid-title{
+    font-size: 50px;
+    margin-top: -40px;
+}
+.section-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+select{
+    font-size: 45px;
+    box-shadow: 0 0 10px rgba(15, 142, 226, 0.911);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    width: 490px;
+    margin-top: -10px ;
+    margin-left: 20px;
+    text-align: center;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    padding: 25px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(15, 142, 226, 0.911),
+    0 0 020px rgba(15, 142, 226, 0.911);
+}
+
+
