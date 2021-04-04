@@ -1,4 +1,4 @@
- h2{
+h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,12 +13,17 @@
 .grid-title{
     font-size: 50px;
     margin-top: -40px;
+    left: 10%;
 }
 .section-page{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
+    
+    flex-direction: column;
+    height: 400px;
+
 }
 select{
     font-size: 45px;
@@ -45,9 +50,11 @@ button{
     color: white;
     border-radius: 20px;
     border: none;
-    cursor: pointer;
+    
     text-shadow: 0 0 10px rgba(15, 142, 226, 0.911),
     0 0 020px rgba(15, 142, 226, 0.911);
 }
 
-
+select { 
+    background: transparent;
+}
